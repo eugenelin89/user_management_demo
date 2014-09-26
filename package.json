@@ -1,0 +1,33 @@
+{
+  "name": "ChopChopPlatform",
+  "version": "0.0.0",
+  "description": "API for Chop Chop Web and Mobile",
+  "main": "web.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://chopchop@bitbucket.org/chopchop/chopchopfoundation.git"
+  },
+  "author": "Eugene Lin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.5.0",
+    "express": "^4.6.1",
+    "gridfs-stream": "^0.5.1",
+    "logfmt": "^1.1.2",
+    "mongodb": "^1.4.8",
+    "mongoose": "^3.8.14",
+    "mongoskin": "^1.4.4",
+    "multiparty": "^3.3.2",
+    "promise": "^5.0.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "superagent": "^0.18.2"
+  }
+}
